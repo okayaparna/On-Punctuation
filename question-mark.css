@@ -137,7 +137,7 @@ animation: textone 25s linear infinite;
   }
 
 .textone:hover{
-    background-color: rgba(255, 255, 255, 0.412);
+    /* background-color: rgba(255, 255, 255, 0.412); */
     color: var(--pink);
     transition: 0.3s;
 
@@ -196,7 +196,7 @@ animation: texttwo 25s linear infinite;
 
 
 .texttwo:hover{
-    background-color: rgba(255, 255, 255, 0.412);
+    /* background-color: rgba(255, 255, 255, 0.412); */
     color: var(--pink);
     transition: 0.3s;
 }

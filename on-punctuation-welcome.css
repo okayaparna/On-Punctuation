@@ -31,41 +31,6 @@
 
 }
 
-span:nth-child(1) {
-    color: var(--pink); 
-    font-family:
-      animation-delay: 0.1s;
-      -webkit-animation-delay: 0.1s;
-  }
-  span:nth-child(2) {
-      animation-delay: 0.2s;
-      -webkit-animation-delay: 0.2s;
-  }
-  
-  @keyframes blur {
-      0%		{text-shadow:  0 0 100px #fff; opacity:0;}
-      5%		{text-shadow:  0 0 90px #fff;}
-      15%		{opacity: 1;}
-      20%		{text-shadow:  0 0 0px #fff;}
-      80%		{text-shadow:  0 0 0px #fff;}
-      85%		{opacity: 1;}
-      95%		{text-shadow:  0 0 90px #fff;}
-      100%	{text-shadow:  0 0 100px #fff; opacity:0;}
-  }
-  
-  @-webkit-keyframes blur {
-      0%		{text-shadow:  0 0 100px #fff; opacity:0;}
-      5%		{text-shadow:  0 0 90px #fff;}
-      15%		{opacity: 1;}
-      20%		{text-shadow:  0 0 0px #fff;}
-      80%		{text-shadow:  0 0 0px #fff;}
-      85%		{opacity: 1;}
-      95%		{text-shadow:  0 0 90px #fff;}
-      100%	{text-shadow:  0 0 100px #fff; opacity:0;}
-  }
-  
-
-
 
 @media (min-width:400px){
 .on{

@@ -303,22 +303,20 @@ animation-timing-function: ease-in-out;
     height: 81px;
     left: 18.1px;
     top: 103.18px;
-    
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
     line-height: 198px;
-    
     color: #000000;
-    
     transform: rotate(-28.48deg);
-
-animation-name: floating-question-2;
-animation-duration: 5s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    animation-name: floating-question-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    display: none;
 }
+
 
 @keyframes floating-question-2 {
     0% { transform: translate(0,  0px, 20px); }
@@ -328,16 +326,19 @@ animation-timing-function: ease-in-out;
 
 
 @media (min-width:400px){
+
 .question-mark-2{
+    display: block;
     width: 106px;
     height: 81px;
-    left: 2000.1px;
-    top: 100rem;
-    font-size: 20rem;
+    left: 1700.1px;
+    top: 105rem;
+    font-size: 12rem;
     line-height: 198px;
 }
 }
 @media (min-width:700px){
+
 .question-mark-2{
     width: 106px;
     height: 81px;
@@ -455,33 +456,53 @@ animation-timing-function: ease-in-out;
     position: absolute;
     width: 201px;
     height: 291px;
-    left: 302px;
-    top: 263px;
-    
+    left: 1002px;
+    top: 1443px;
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
     font-size: 230px;
     line-height: 356px;
-    
     color: #000000;
- 
     transform: rotate(320.48deg);
-
     animation-name: floating-exclaim-2;
-animation-duration: 2s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 
 @media (min-width:400px){
-
+.exclaim-2{
+    width: 201px;
+    height: 291px;
+    left: 1102px;
+    top: 1443px;
+    font-size: 25rem;
+    line-height: 356px;
+}
 }
 @media (min-width:700px){
-
+.exclaim-2{
+    width: 201px;
+    height: 291px;
+    left: 1102px;
+    top: 1643px;
+    font-size: 25rem;
+    line-height: 356px;
 }
-
+}
+@media (min-width:1000px){
+    .exclaim-2{
+   width: 201px;
+        height: 291px;
+        left: 1302px;
+        top: 2443px;
+        font-size: 25rem;
+        line-height: 356px;
+    
+    }
+    }
 
 @keyframes floating-exclaim-2 {
     0% { transform: translate(0,  0px, 5px); }
@@ -517,10 +538,11 @@ animation-timing-function: ease-in-out;
 100%   { transform: translate(5px, -0px, 0px); }   
 }
 
-
-@media (min-width:400px){
-
-}
 @media (min-width:700px){
-
+.exclaim-3{
+    width: 201px;
+    height: 291px;
+    left: 1406px;
+    top: 404px;
+}
 }

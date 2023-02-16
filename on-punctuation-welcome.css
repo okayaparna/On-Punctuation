@@ -328,33 +328,43 @@ animation-timing-function: ease-in-out;
 
 
 @media (min-width:400px){
-
+.question-mark-2{
+    width: 106px;
+    height: 81px;
+    left: 2000.1px;
+    top: 100rem;
+    font-size: 20rem;
+    line-height: 198px;
+}
 }
 @media (min-width:700px){
-
+.question-mark-2{
+    width: 106px;
+    height: 81px;
+    left: 2000.1px;
+    top: 120rem;
+    font-size: 20rem;
+    line-height: 198px;
+}
 }
 
 .question-mark-3{
     position: absolute;
     width: 144px;
-    height: 139px;
-    left: 1347px;
-    top: 15px;
-    
+    height: 839px;
+    left: 947px;
+    top: 505px;
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
     line-height: 198px;
-    
     color: #000000;
-    
-    transform: rotate(-58.48deg);
-
-animation-name: floating-question-3;
-animation-duration: 2s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    transform: rotate(-38.48deg);
+    animation-name: floating-question-3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes floating-question-3 {
@@ -365,32 +375,42 @@ animation-timing-function: ease-in-out;
 
 
 @media (min-width:400px){
-
+.question-mark-3{
+    width: 144px;
+    height: 839px;
+    left: 2100px;
+    top: 95px;
+    font-size: 15rem;
+    line-height: 198px;
+}
 }
 @media (min-width:700px){
-
+.question-mark-3{
+    width: 144px;
+    height: 839px;
+    left: 2100px;
+    top: 95px;
+    font-size: 15rem;
+    line-height: 198px;
 }
-
+}
 .question-mark-4{
     position: absolute;
     width: 103px;
     height: 149px;
-    left: 490px;
-    top: 775px;
-    
+    left: 250px;
+    top: 1375px;
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
     font-size: 128px;
     line-height: 198px;
-    
     color: #000000;
     transform: rotate(-18.48deg);
-
-animation-name: floating-question-4;
-animation-duration: 1.5s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
+    animation-name: floating-question-4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes floating-question-4 {
@@ -399,13 +419,37 @@ animation-timing-function: ease-in-out;
     100%   { transform: translate(0px, -0px, 10px); }   
 }
 
-
 @media (min-width:400px){
-
-}
+    .question-mark-4{
+        width: 103px;
+        height: 149px;
+        left: 290px;
+        top: 1375px;
+        font-size: 15rem;
+        line-height: 198px;
+        
+    }
+    }
 @media (min-width:700px){
-
+.question-mark-4{
+    width: 103px;
+    height: 149px;
+    left: 390px;
+    top: 2075px;
+    font-size: 20rem;
+    line-height: 198px;
 }
+}
+@media (min-width:1000px){
+    .question-mark-4{
+        width: 103px;
+        height: 149px;
+        left: 390px;
+        top: 2075px;
+        font-size: 22rem;
+        line-height: 198px;
+    }
+    }
 
 .exclaim-2{
     position: absolute;

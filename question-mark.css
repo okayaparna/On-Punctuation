@@ -1,5 +1,4 @@
 :root{
-
         --cyan: cyan;
         --pink: rgb(255, 0, 128);
         --yellow: yellow;
@@ -20,8 +19,8 @@ border-radius: 0px;
     position: absolute;
 /* width: 1299px;
 height: 1340px; */
-left: 200px;
-top: -16px;
+left: 150px;
+top: 206px;
 
 font-family: 'Aguafina Script';
 font-style: normal;
@@ -32,6 +31,22 @@ line-height: 1562px;
 color: #000000;
 
 }
+
+@media (min-width:520px){
+.question-mark{
+left: 200px;
+top: -16px;
+font-size: 1110px;
+line-height: 1562px;
+z-index: +20;
+}
+}
+
+@media (min-width:1000px){
+
+}
+
+
 
 a:link {
     text-decoration-line: none;
@@ -53,34 +68,6 @@ a:active {
     text-decoration-line: none;
     text-align: center;
 }
-
-/* .textone{
-    position: absolute;
-width: 524px;
-height: 1059px;
-left: 150px;
-top: 0px;
-
-position: absolute;
-width: 515px;
-height: 1041px;
-left: 153px;
-top: 18px;
-z-index: +1;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 29px;
-line-height: 34px;
-text-align: justify;
-
-color: rgb(0, 0, 0);
-
-backdrop-filter: blur(5px);
-padding:10px;
-line-height: 35px;
-} */
 
 .textone{
     position: absolute;
@@ -137,10 +124,15 @@ animation: textone 25s linear infinite;
   }
 
 .textone:hover{
-    /* background-color: rgba(255, 255, 255, 0.412); */
     color: var(--pink);
     transition: 0.3s;
 
+}
+
+@media (max-width:500px){
+    .textone{
+        display: none;
+    }
 }
 
 .texttwo{
@@ -166,7 +158,6 @@ backdrop-filter: blur(5px);
 -webkit-animation: texttwo 25s linear infinite;
 animation: texttwo 25s linear infinite;
 }
-
 
 /* for Firefox */
 @-moz-keyframes texttwo {
@@ -196,27 +187,73 @@ animation: texttwo 25s linear infinite;
 
 
 .texttwo:hover{
-    /* background-color: rgba(255, 255, 255, 0.412); */
     color: var(--pink);
     transition: 0.3s;
 }
 
-/* .exclamation-mark-link{
+@media (max-width:500px){
+    .texttwo{
+        display: none;
+    }
+}
 
-    position: absolute;
-    width: 1299px;
-    height: 1340px;
 
-    top: -16px;
+.textoneandtwo{
+position: absolute;
+left: 117px;
+top: 0px;
+height: 100%;
+width: 1020px;
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 100px;
+text-align: justify;
     
-    font-family: 'Aguafina Script';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1110px;
-    line-height: 1562px;
+    /* animation properties */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
     
-    color: #000000;
+    -moz-animation: my-animation 16s linear infinite;
+    -webkit-animation: my-animation 16s linear infinite;
+    animation: my-animation 16s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateY(100%); }
+    to { -moz-transform: translateY(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateY(100%); }
+    to { -webkit-transform: translateY(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateY(100%);
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+    to {
+      -moz-transform: translateY(-100%);
+      -webkit-transform: translateY(-100%);
+      transform: translateY(-100%);
+    }
+  }
+  
+  @media(min-width:320px){
+    .textoneandtwo{
+        left: 207px;
+    }
+    }
 
-} */
-
-
+@media(min-width:500px){
+.textoneandtwo{
+    display: none;
+}
+}

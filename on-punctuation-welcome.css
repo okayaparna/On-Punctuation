@@ -6,79 +6,151 @@
       }
 
 .on{
-    /* position: absolute;
-    width: 1093px;
-    height: 323px;
-    left: 956px;
-    top: -60px;
-    
-    font-family: 'Aguafina Script';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 500px;
-    line-height: 774px;
-    
-    color: #FF00A8;
-    animation: blinking 2.5s infinite; */
 
-    font-family: 'Aguafina Script';
-    font-style: normal;
-    font-size: 97px;
-    font-weight: 400;
-    color: var(--pink);
-    animation: blur 10s ease-out infinite;
-	-webkit-animation: blur 10s ease-out infinite;
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+color: var(--pink);
+position: absolute;
+width: 1503px;
+height: 758px;
+left: 900px;
+top: 300px;
+margin-top: 331px;
+animation: blinking 2.5s infinite;
+font-size: 300px;
+line-height: 654px;
+/* animation: blur 10s ease-out infinite;
+-webkit-animation: blur 10s ease-out infinite; */
 
 }
-
-
-@media (min-width:400px){
+@media (min-width:375px){
+    .on{
+        width: 1503px;
+        height: 758px;
+        left: 1000px;
+        top: 300px;
+        font-size: 300px;
+    line-height: 654px;
+    
+    }
+    }
+@media (min-width:387px){
+    .on{
+        width: 1093px;
+        height: 323px;
+        left: 1356px;
+        top: -120px;
+        font-size: 700px;
+        line-height: 774px;
+    
+    }
+    }
+@media (min-width:505px){
 .on{
     position: absolute;
     width: 1093px;
     height: 323px;
-    left: 956px;
-    top: -60px;
-    
+    left: 1356px;
+    top: -120px;
+    font-size: 700px;
+    line-height: 774px;
+}
+}
+@media (min-width:542px){
+    .on{
+        width: 1093px;
+        height: 323px;
+        left: 1356px;
+        top: -120px;
+        font-size: 50rem;
+        line-height: 774px;
+    }
+    }
+@media (min-width:700px){
+        .on{
+            width: 1093px;
+            height: 323px;
+            left: 1656px;
+            top: 10px;
+            font-size: 50rem;
+            line-height: 774px;
+        }
+        }
+@media (min-width:1024px){
+    .on{
+        width: 1093px;
+        height: 323px;
+        left: 1800px;
+        top: 300px;
+        font-size: 50rem;
+        line-height: 774px;
+    }
+    }
+
+.punctuation{
+
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
-    font-size: 500px;
-    line-height: 774px;
-    
-    color: #FF00A8;
-    animation: blinking 2.5s infinite;
-}
-}
-@media (min-width:700px){
 
-}
-
-.punctuation{
     position: absolute;
     width: 1503px;
     height: 758px;
-    left: 0px;
-    top: -11px;
-    
+    left: 30px;
+    top: 600px;
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
-    font-size: 410px;
+    font-size: 350px;
     line-height: 634px;
     margin-top: 331px;
-    
     color: #FF00A8;
     animation: blinking 2.5s infinite;
 }
 
+@media(min-width:375px){
+    .punctuation{
+        width: 1503px;
+        height: 758px;
+        left: 140px;
+        top: 600px;
+        font-size: 350px;
+        line-height: 634px;
+    }
+}
 
-@media (min-width:400px){
+@media (min-width:387px){
+  .punctuation{
+    width: 1503px;
+    height: 758px;
+    left: 0px;
+    top: 401px;
+    font-size: 580px;
+    line-height: 634px;
 
+  }  
 }
 @media (min-width:700px){
-
+.punctuation{
+    width: 1093px;
+    height: 323px;
+    left: 156px;
+    top: 550px;
+    font-size: 40rem;
+    line-height: 774px;
 }
+}
+@media (min-width:1024px){
+    .punctuation{
+        width: 1093px;
+        height: 323px;
+        left: 256px;
+        top: 850px;
+        font-size: 40rem;
+        line-height: 774px;
+    }
+    }
 
 @keyframes blinking{
     0% {
@@ -100,33 +172,50 @@
 
 .question-mark{
     position: absolute;
-width: 306px;
-height: 339px;
-left: 484.08px;
-top: 124.56px;
-
-animation-name: floating;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-timing-function: ease-in-out;
-
-font-family: 'Aguafina Script';
-font-style: normal;
-font-weight: 400;
-font-size: 350px;
-line-height: 541px;
-
-color: #000000;
-
-transform: rotate(-44.2deg);
+    width: 306px;
+    height: 339px;
+    left: 484.08px;
+    top: 824.56px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    line-height: 541px;
+    color: #000000;
+    transform: rotate(-44.2deg);
 }
 
 
 @media (min-width:400px){
-
+   .question-mark{
+    width: 306px;
+    height: 339px;
+    left: 704.08px;
+    top: 524.56px;
+    font-size: 30rem;
 }
+   } 
 @media (min-width:700px){
-
+.question-mark{
+    width: 306px;
+    height: 339px;
+    left: 954.08px;
+    top: 724.56px;
+    font-size: 30rem;
+}
+}
+@media (min-width:1000px){
+.question-mark{
+    width: 306px;
+    height: 339px;
+    left: 1054.08px;
+    top: 1024.56px;
+    font-size: 35rem;
+}
 }
 
 a:link {
@@ -150,37 +239,57 @@ a:active {
     50%  { transform: translate(0, 45px); }
     100%   { transform: translate(0, -0px); }   
 }
-
 .exclaim-1{
-    position: absolute;
+
+position: absolute;
 width: 201px;
 height: 291px;
 left: 65px;
-top: 640.91px;
-
+top: 700.91px;
 font-family: 'Aguafina Script';
 font-style: normal;
 font-weight: 400;
-font-size: 230px;
+font-size: 20rem;
 line-height: 356px;
-
 color: #000000;
-
 transform: rotate(-50.15deg);
-
 animation-name: floating-exclaim-1;
 animation-duration: 4.5s;
 animation-iteration-count: infinite;
 animation-timing-function: ease-in-out;
+
 }
-
-
 @media (min-width:400px){
-
+.exclaim-1{
+    width: 201px;
+    height: 291px;
+    left: 65px;
+    top: 340.91px;
+    font-size: 35rem;
+    line-height: 356px;
+}
 }
 @media (min-width:700px){
+    .exclaim-1{
+        width: 201px;
+        height: 291px;
+        left: 375px;
+        top: 340.91px;
+        font-size: 35rem;
+        line-height: 356px;
+    }
+    }
+@media (min-width:1000px){
+    .exclaim-1{
+        width: 201px;
+        height: 291px;
+        left: 375px;
+        top: 740.91px;
+        font-size: 45rem;
+        line-height: 356px;    
+    }
+    }
 
-}
 
 @keyframes floating-exclaim-1 {
     0% { transform: translate(0px,  0px, 40px); }

@@ -36,3 +36,27 @@ a:active {
     text-align: center;
 }
 
+@media(min-width:700px){
+  .column{
+    column-count: 2; 
+  }
+}
+
+
+.textone{
+  font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+@media(min-width:1000px){
+  .textone{
+    max-width: 900px;
+  }
+}
+

@@ -127,6 +127,8 @@ animation: textone 25s linear infinite;
 .textone:hover{
     color: var(--pink);
     transition: 0.3s;
+    cursor: help;
+ 
 
 }
 
@@ -190,6 +192,7 @@ animation: texttwo 25s linear infinite;
 .texttwo:hover{
     color: var(--pink);
     transition: 0.3s;
+    cursor: help;
 }
 
 @media (max-width:500px){

@@ -28,7 +28,7 @@ font-weight: 400;
 font-size: 1110px;
 line-height: 1562px;
 
-color: #000000;
+color: var(--yellow); 
 
 }
 

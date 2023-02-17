@@ -27,6 +27,12 @@
 
 }
 
+.textone:hover{
+    cursor: s-resize;
+    color: var(--blue);
+    transition: 1.5s;
+}
+
 .texttwo{
     position: absolute;
 width: 700px;

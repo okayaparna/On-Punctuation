@@ -202,7 +202,6 @@ animation: texttwo 25s linear infinite;
 position: absolute;
 left: 117px;
 top: 0px;
-height: 100%;
 width: 1020px;
 font-family: 'Abhaya Libre';
 font-style: normal;
@@ -216,9 +215,10 @@ text-align: justify;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     
-    -moz-animation: my-animation 16s linear infinite;
-    -webkit-animation: my-animation 16s linear infinite;
-    animation: my-animation 16s linear infinite;
+    -moz-animation: my-animation 26s linear infinite;
+    -webkit-animation: my-animation 26s linear infinite;
+    animation: my-animation 26s linear infinite;
+    animation-iteration-count:1; 
   }
   
   /* for Firefox */
@@ -235,9 +235,9 @@ text-align: justify;
   
   @keyframes my-animation {
     from {
-      -moz-transform: translateY(100%);
-      -webkit-transform: translateY(100%);
-      transform: translateY(100%);
+      -moz-transform: translateY(10%);
+      -webkit-transform: translateY(10%);
+      transform: translateY(10%);
     }
     to {
       -moz-transform: translateY(-100%);

@@ -1,0 +1,38 @@
+:root{
+    --cyan: cyan;
+    --pink: rgb(255, 0, 128);
+    --yellow: yellow;
+    --blue: blue;
+
+  }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+
+  a:link {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-line: none;
+    text-align: center;
+    color: var(--yellow);
+}
+
+a:active {
+    text-decoration-line: none;
+    text-align: center;
+}
+

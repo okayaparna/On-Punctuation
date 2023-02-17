@@ -14,7 +14,7 @@
     position: absolute;
     top: 154px;
     left: 15vw;
-    width: 230px;
+    width: 240px;
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
@@ -66,10 +66,11 @@ color: #FFFFFF;
 backdrop-filter: blur(5px);
 }
 
+
 .textthree{
     position: absolute;
     left: 15vw;
-    width: 230px;
+    width: 240px;
     top: 100rem;
     font-family: 'Abhaya Libre';
     font-style: normal;
@@ -94,4 +95,64 @@ backdrop-filter: blur(5px);
         font-size: 39px;
     }
 
+}
+
+
+.words{
+position: absolute;
+top: 1800px;
+left: 7rem;
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+color: var(--yellow);
+}
+
+@media(min-width:400px){
+    .words{
+left: 9rem;
+    }
+}
+@media(min-width:700px){
+    .words{
+        top: 1850px;
+left: 20rem;
+    }
+}
+@media(min-width:1000px){
+    .words{
+        top: 1920px;
+left: 28rem;
+    }
+}
+.words:hover{
+   font-size: 60px;
+    transition: 1s;
+  
+}
+
+.linktonext{
+color: yellow;
+}
+ 
+a:link {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-line: none;
+    text-align: center;
+    color: var(--yellow);
+}
+
+a:active {
+    text-decoration-line: none;
+    text-align: center;
 }

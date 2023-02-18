@@ -42,6 +42,13 @@ a:active {
   }
 }
 
+.linktohome{
+  font-family: 'Aguafina Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  text-align: center;
+}
 
 .textone{
   font-family: 'Abhaya Libre';
@@ -60,3 +67,36 @@ font-size: 20px;
   }
 }
 
+
+.span{
+color: var(--pink);
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+padding-left: 2px;
+padding-right: 1px;
+}
+
+span:nth-child(3){
+  color: var(--yellow);
+}
+
+span:nth-child(5){
+  color: var(--blue);
+}
+
+span:nth-child(6){
+  color: var(--cyan);
+}
+
+span:nth-child(8){
+  color: var(--blue);
+}
+span:nth-child(1){
+  color: var(--yellow);
+}
+.span:hover{
+font-size: 30px;
+transition: 1s;
+}

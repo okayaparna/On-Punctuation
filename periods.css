@@ -103,3 +103,12 @@ span:nth-child(1){
 font-size: 30px;
 transition: 1s;
 }
+
+.linktonext{
+  font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+color: var(--pink);
+font-size: 300px;
+text-align: center;
+}

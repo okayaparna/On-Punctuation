@@ -1,0 +1,239 @@
+:root{
+    --cyan: cyan;
+    --pink: rgb(255, 0, 128);
+    --yellow: yellow;
+    --blue: blue;
+
+  }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+
+  a:link {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-line: none;
+    text-align: center;
+    color: var(--yellow);
+}
+
+a:active {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.body{
+background-color: var(--yellow);
+
+}
+
+.dot {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: +1;
+  }
+
+
+.comma{
+    font-size: 1500px;
+    color: #000000;
+    margin-top: -1100px;
+    margin-left: -100px;
+}  
+/* 
+.dot2{
+    margin-top: 10%;
+    margin-left: 10%;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+display: inline-block;
+background-color: var(--cyan);
+transform: translate(1px,-260px);
+transition:0.5s;
+z-index: -10;
+}
+
+.dot3{
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+    transform: translate(-1px,-500px);
+    z-index: -20;
+}
+
+.dot4 {
+    height: 200px;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: var(--pink);
+    border-radius: 50%;
+    display: inline-block;
+    z-index: +1;
+  }
+
+
+.dots{
+    display:inline-block;
+    margin-top: 10%;
+    margin-left: 10%;
+} */
+
+.dotcyan{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: 4px;
+top: -1214px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--cyan);
+}
+
+.dotpink{
+    position: absolute;
+width: 320px;
+height: 1905px;
+left: -4px;
+top: -1193px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--pink);
+
+}
+
+.dotblack{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: 0px;
+top: -1206px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.commacyan{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: 10px;
+top: -921px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+backdrop-filter: ;
+
+color: var(--cyan);
+}
+
+.commapink{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: -9px;
+top: -896px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: var(--pink);
+
+}
+
+.commablack{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: 0px;
+top: -906px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 2000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+ 
+
+.textone{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+text-align: justify;
+max-width: 300px;
+margin: 0 auto;
+font-size: 20px;
+}
+
+@media (min-width:700px){
+    .textone{
+        max-width: 700px; 
+    }
+}
+  
+

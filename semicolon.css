@@ -101,7 +101,7 @@ top: -706px;
 font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400;
-font-size: 1000px;
+font-size: 1200px;
 line-height: 2359px;
 display: flex;
 align-items: center;
@@ -117,6 +117,15 @@ color: #000000;
         top: -800px;
     }
 }
+@media(max-width:425px){
+    .dotblack{
+        margin-left: 55%;
+        top: -800px;
+        color: cyan;
+        z-index: -100;
+    }
+}
+
 
 .dotblack:hover {
     filter: none !important;

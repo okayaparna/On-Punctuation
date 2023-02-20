@@ -1,0 +1,103 @@
+:root{
+    --cyan: cyan;
+    --pink: rgb(255, 0, 128);
+    --yellow: yellow;
+    --blue: blue;
+
+    cursor:none;
+    --cursorX: 50vw;
+    --cursorY: 50vh;
+  }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+:root:before{
+    content:'';
+    display:block;
+    width:100%;
+    height:100%;
+    position:fixed;
+    pointer-events:none;
+    background:radial-gradient(
+        circle 20vmax at var(--cursorX) var(--cursorY),
+        rgba(0,0,0,0) 0%,
+        var(--cyan) 90%,
+        var(--blue) 100%
+    )
+}
+
+
+
+
+
+
+
+  a:link {
+    text-decoration-line:underline;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-line:underline;
+    text-align: center;
+    color: var(--pink);
+    font-size: larger;
+    transition: 1s;
+}
+
+a:active {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.textone{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+
+@media(min-width:700px){
+    .textone{
+        max-width: 600px;
+    }
+}
+
+.para-1{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.para-2{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.para-3{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}

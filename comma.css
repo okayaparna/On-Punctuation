@@ -15,9 +15,32 @@ font-weight: 400; */
 /* font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400; */
-/* 
+.linktonext{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+color: var(--blue);
+font-size: 40px;
+}
+.linktohome{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+    font-size: 100px;
+    Z-index: +1000;
+}
+header{
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: -70px;
+}
 
-  a:link {
+footer{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+a:link {
     text-decoration-line:none;
     text-decoration: none;
     text-align: center;
@@ -31,13 +54,15 @@ a:visited {
 a:hover {
     text-decoration-line:none;
     text-align: center;
+    color: var(--cyan);
+    transition: 1s;
 
 }
 
 a:active {
     text-decoration-line: none;
     text-align: center;
-} */
+}
 
 .body{
 background-color: var(--white);
@@ -132,3 +157,4 @@ border-radius: 25px;
     margin-top: -390px;
     text-align: center;
 }
+

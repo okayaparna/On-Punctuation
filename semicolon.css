@@ -16,7 +16,8 @@ font-weight: 400; */
 
 
   a:link {
-    text-decoration-line: none;
+    text-decoration-line:underline;
+    text-decoration: none;
     text-align: center;
 }
 
@@ -26,13 +27,15 @@ a:visited {
 }
 
 a:hover {
-    text-decoration-line: none;
+    text-decoration-line:underline;
     text-align: center;
-    color: var(--yellow);
+    color: var(--pink);
+    font-size: larger;
+    transition: 1s;
 }
 
 a:active {
-    text-decoration-line: none;
+    /* text-decoration-line: none; */
     text-align: center;
 }
 
@@ -41,15 +44,21 @@ background-color: var(--yellow);
 
 }
 
+.semicolon:hover{
+    display: none;
+}
+
+
 .dot {
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 50%;
     display: inline-block;
-    z-index: +1;
-  }
 
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+  }
 
 .comma{
     font-size: 1500px;
@@ -57,49 +66,6 @@ background-color: var(--yellow);
     margin-top: -1100px;
     margin-left: -100px;
 }  
-/* 
-.dot2{
-    margin-top: 10%;
-    margin-left: 10%;
-height: 200px;
-width: 200px;
-border-radius: 50%;
-display: inline-block;
-background-color: var(--cyan);
-transform: translate(1px,-260px);
-transition:0.5s;
-z-index: -10;
-}
-
-.dot3{
-    height: 200px;
-    width: 200px;
-    margin-top: 10%;
-    margin-left: 10%;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: black;
-    transform: translate(-1px,-500px);
-    z-index: -20;
-}
-
-.dot4 {
-    height: 200px;
-    width: 200px;
-    margin-top: 10%;
-    margin-left: 10%;
-    background-color: var(--pink);
-    border-radius: 50%;
-    display: inline-block;
-    z-index: +1;
-  }
-
-
-.dots{
-    display:inline-block;
-    margin-top: 10%;
-    margin-left: 10%;
-} */
 
 .dotcyan{
     position: absolute;
@@ -119,6 +85,7 @@ text-align: center;
 
 color: var(--cyan);
 }
+
 
 .dotpink{
     position: absolute;
@@ -220,6 +187,18 @@ color: #000000;
 }
  
 
+.textonewrapper{
+    margin-left:  10%;
+    margin-top:10%;
+}
+
+@media(min-width: 500px){
+    .textonewrapper{
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+}
+
 .textone{
     font-family: 'Abhaya Libre';
 font-style: normal;
@@ -235,5 +214,20 @@ font-size: 20px;
         max-width: 700px; 
     }
 }
-  
 
+.linktonext{
+    text-decoration-line: underline;
+    
+}
+
+.linkwrapper{
+    margin-top:10%;
+    margin-left: 15%;
+    
+}
+
+@media(min-width:700px){
+    .linkwrapper{
+        margin-left: 35%;
+    }
+}

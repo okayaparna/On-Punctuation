@@ -5,8 +5,8 @@
     --blue: blue;
 
     cursor:none;
-    --cursorX: 50vw;
-    --cursorY: 50vh;
+    --cursorX: 60vw;
+    --cursorY: 60vh;
   }
 /* 
 font-family: 'Aguafina Script';
@@ -59,43 +59,63 @@ a:active {
 
 .textone{
     margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;    
+    margin-left: 10%;
+    margin-right: 10%;    
 }
 
-@media(min-width:700px){
+/* @media(min-width:700px){
     .textone{
         max-width: 600px;
     }
-}
+} */
 
 .para-1{
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
     text-align: justify;
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 5%;
     font-size: 20px;
 }
+
+@media (min-wdith:1000px){
+    .para-1{
+        max-width: 650px;
+    }
+}
+
 .para-2{
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
     text-align: justify;
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 5%;
     font-size: 20px;
 }
+
+@media (min-wdith:1000px){
+    .para-2{
+        max-width: 650px;
+    }
+}
+
 .para-3{
     font-family: 'Abhaya Libre';
     font-style: normal;
     font-weight: 400;
     text-align: justify;
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
     padding-bottom: 5%;
     font-size: 20px;
+}
+
+@media (min-wdith:1000px){
+    .para-3{
+        max-width: 650px;
+    }
 }

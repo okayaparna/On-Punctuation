@@ -15,7 +15,7 @@ font-weight: 400; */
 /* font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400; */
-
+/* 
 
   a:link {
     text-decoration-line:none;
@@ -37,7 +37,7 @@ a:hover {
 a:active {
     text-decoration-line: none;
     text-align: center;
-}
+} */
 
 .body{
 background-color: var(--white);
@@ -46,13 +46,23 @@ background-color: var(--white);
 
 
 .textone{
+color: var(--black);
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+transform: scale(0.94);
+animation: scale 5s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
 
+.group-1:hover {
+    animation: textGlow 2s ease-in-out infinite alternate;
 }
 
 span {
     display: inline-block;
     opacity: 0;
     filter: blur(4px);
+
   }
 
 span:nth-child(1) {
@@ -263,3 +273,18 @@ animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
       filter: blur(0);
     }
   }
+
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  } 
+
+  @keyframes textGlow {
+    from {
+        text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px #666666, 0 0 40px #666666, 0 0 50px #666666, 0 0 60px #666666, 0 0 70px #666666;
+    }
+    to {
+        text-shadow: 0 0 20px black, 0 0 30px #858585, 0 0 40px #858585, 0 0 50px #858585, 0 0 60px #858585, 0 0 70px #858585, 0 0 80px #858585;
+    }
+}

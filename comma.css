@@ -50,7 +50,16 @@ background-color: var(--white);
     margin-right: 10%;
     font-size: 30px;
 }
+@media(max-width:425px){
+    .textone-wrapper{
+        margin: 10% auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+      
 
+    }
+}
 
 .textone{
 color: var(--black);
@@ -102,16 +111,24 @@ span {
 .section1{
 background-color: var(--cyan);
 padding: 10% ;
-margin-bottom: 10%;
+border-radius: 25px;
 }
 
 .section2{
 background-color: var(--pink);
 padding: 10% ;
-margin-bottom: 10%;
+margin-top: -150px;
+border-radius: 25px;
 }
 .section3{
 background-color: var(--yellow);
 padding: 10% ;
-margin-bottom: 10%;
+margin-top: -150px;
+border-radius: 25px;
+}
+
+.comma{
+    font-size: 500px;
+    margin-top: -390px;
+    text-align: center;
 }

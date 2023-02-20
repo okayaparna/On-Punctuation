@@ -44,146 +44,6 @@ background-color: var(--yellow);
 
 }
 
-
-
-.dot {
-    height: 200px;
-    width: 200px;
-    background-color: black;
-    border-radius: 50%;
-    display: inline-block;
-
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-  }
-
-.comma{
-    font-size: 1500px;
-    color: #000000;
-    margin-top: -1100px;
-    margin-left: -100px;
-}  
-
-.dotcyan{
-    position: absolute;
-width: 320px;
-height: 1911px;
-left: 4px;
-top: -1214px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: var(--cyan);
-}
-
-
-.dotpink{
-    position: absolute;
-width: 320px;
-height: 1905px;
-left: -4px;
-top: -1193px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: var(--pink);
-
-}
-
-.dotblack{
-    position: absolute;
-width: 320px;
-height: 1911px;
-left: 0px;
-top: -1206px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-}
-
-.commacyan{
-    position: absolute;
-width: 320px;
-height: 1911px;
-left: 10px;
-top: -921px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-backdrop-filter: ;
-
-color: var(--cyan);
-}
-
-.commapink{
-    position: absolute;
-width: 320px;
-height: 1911px;
-left: -9px;
-top: -896px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: var(--pink);
-
-}
-
-.commablack{
-    position: absolute;
-width: 320px;
-height: 1911px;
-left: 0px;
-top: -906px;
-
-font-family: 'Abhaya Libre';
-font-style: normal;
-font-weight: 400;
-font-size: 2000px;
-line-height: 2359px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
-}
- 
-
 .textonewrapper{
     margin-left:  10%;
     margin-top:10%;
@@ -208,7 +68,7 @@ font-size: 20px;
 
 @media (min-width:700px){
     .textone{
-        max-width: 700px; 
+        max-width: 650px; 
     }
 }
 
@@ -228,3 +88,89 @@ font-size: 20px;
         margin-left: 35%;
     }
 }
+
+
+
+.dotblack{
+    position: absolute;
+width: 320px;
+height: 1911px;
+left: 0px;
+top: -706px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 1000px;
+line-height: 2359px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+
+@media(min-width:1000px){
+    .dotblack{
+        font-size: 1500px;
+        top: -800px;
+    }
+}
+
+.dotblack:hover {
+    filter: none !important;
+    cursor: pointer;
+    animation: glowAnimation 5s ease-in-out infinite;
+}
+
+@keyframes glowAnimation {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 var(--pink), 
+            0 0 0 var(--pink), 
+            0 0 0 var(--cyan), 
+            0 0 0 var(--cyan);
+    }
+
+    20% {  
+        transform: translateY(5px);
+        text-shadow: 
+            0 0.0125em 0 var(--cyan), 
+            0 0.025em 0 var(--cyan), 
+            0 -0.0125em 0 var(--pink), 
+            0 -0.025em 0 var(--pink);
+    }
+
+    40% {  
+        transform: translateY(15px);
+        text-shadow: 
+            0 -0.00625em 0 var(--pink), 
+            0 -0.0125em 0 var(--pink), 
+            0 0.00625em 0 var(--cyan), 
+            0 0.00125em 0 var(--cyan);
+    }
+    
+   60% {
+        transform: translateY(-10);
+        text-shadow: 
+            0 0.003125em 0 var(--cyan), 
+            0 0.00625em 0 var(--cyan), 
+            0 -0.003125em 0 var(--pink), 
+            0 -0.00625em 0 var(--pink);
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 var(--pink), 
+            0 0 0 var(--pink), 
+            0 0 0 var(--cyan), 
+            0 0 0 var(--cyan);
+    }
+}
+
+
+
+ 

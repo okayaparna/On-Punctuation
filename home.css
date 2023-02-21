@@ -106,7 +106,7 @@ a:active {
 }
 
 .question-mark-wrap{
-    margin-top: -420px;
+    margin-top: -410px;
     padding-left: 53%;
 
     transform: rotate(-44.2deg);
@@ -121,6 +121,12 @@ a:active {
         margin-top: -400px;
         padding-left: 40%;
     
+    }
+}
+@media (max-width:500px){
+    .question-mark-wrap{
+        animation: none;
+        transform: revert;
     }
 }
 
@@ -170,8 +176,108 @@ a:active {
 
 }
 
+@media (max-width:500px){
+    .apostrophe-wrap{
+        animation: none;
+        transform: revert;
+        margin-top: -25rem;
+        margin-left: -8rem;
+    }
+}
+
+@media (min-width:1000px){
+    .apostrophe-wrap{
+        margin-top: -25rem;
+        margin-left: 2rem;
+    }
+}
+
 @keyframes floating-question-2 {
     0% { transform: translate(0,  0px, 20px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0px, -0px, 10px); }   
+}
+
+.period{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20rem;
+   animation: blinking 2.5s infinite;
+    color: #000000;
+
+}
+
+.period-wrap{
+    margin-top: -23rem;
+    padding-left: 51rem;
+    transform: rotate(38.48deg);
+    animation-name: floating-question-3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media(max-width:500px){
+    .period-wrap{
+        animation: none;
+        transform: revert;
+        margin-top: 2rem;
+        margin-left: -35rem;
+    }
+}
+
+@media(min-width:1000px){
+    .period-wrap{
+        margin-top: -2rem;
+        margin-left: -45rem;
+        transform: rotate(80.48deg);
+    }
+}
+
+@keyframes floating-question-3 {
+    0% { transform: translate(0,  7px, 50px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0px, -0px, 10px); }   
+}
+
+.semicolon{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20rem;
+    animation: blinking 2.5s infinite;
+}
+
+.semicolon-wrap{
+    transform: rotate(-18.48deg);
+    animation-name: floating-question-4;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media(max-width:500px){
+    .semicolon-wrap{
+        margin-top: -20rem;
+        padding-left: 30rem;
+        animation: none;
+        transform: revert;
+    }
+}
+
+@media(min-width:1000px){
+    .semicolon-wrap{     
+    margin-top: -25rem;
+    padding-left: 50rem;
+    transform: rotate(18.48deg);
+
+    }
+}
+
+
+@keyframes floating-question-4 {
+    0% { transform: translate(0,  7px, 50px); }
     50%  { transform: translate(0, 25px); }
     100%   { transform: translate(0px, -0px, 10px); }   
 }

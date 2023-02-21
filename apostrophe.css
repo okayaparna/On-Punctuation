@@ -113,9 +113,8 @@ backdrop-filter: blur(5px);
 
 
 .words{
-position: absolute;
-top: 1800px;
-left: 7rem;
+    text-align: center;
+    padding-top: 10%;
 font-family: 'Aguafina Script';
 font-style: normal;
 font-weight: 400;

@@ -18,7 +18,7 @@ font-weight: 400; */
 
 
 body{
-    background: linear-gradient(89.44deg, #00FFF0 3.4%, #FF00A8 28.37%, #FFE600 55.6%, #FFFFFF 83.74%) ;
+    background: linear-gradient(89.44deg,  #FFFFFF 3.4%, #FF00A8 28.37%, #FFE600 55.6%,#00FFF0 83.74%) ;
     height: auto;
     background-attachment: fixed;
     background-size: cover;
@@ -134,7 +134,7 @@ a:active {
      62% {
         color: yellow;
     }
-    97% { color: cyan;
+    97% { color: rgb(0, 0, 0);
        
     }
     100% {
@@ -147,4 +147,31 @@ a:active {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 45px); }
     100%   { transform: translate(0, -0px); }   
+}
+
+.apostrophe{
+    font-family: 'Abhaya Libre';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15rem;
+    color: #000000;
+    animation: blinking 2.5s infinite;
+
+}
+
+.apostrophe-wrap{
+    transform: rotate(-28.48deg);
+    animation-name: floating-question-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    padding-left: 42rem;
+    margin-top: -15rem;
+
+}
+
+@keyframes floating-question-2 {
+    0% { transform: translate(0,  0px, 20px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0px, -0px, 10px); }   
 }

@@ -7,18 +7,15 @@
 
 .body{
     background-color: cyan;
-    height: 900px;
-width: 1440px;
-left: 6006px;
-top: -1686px;
-border-radius: 0px;
 
+}
+.question-mark-wrap{
+  margin-top: 30rem;
+  padding-left: 30rem;
 }
 
 .question-mark{
     position: absolute;
-/* width: 1299px;
-height: 1340px; */
 left: 150px;
 top: 206px;
 
@@ -32,18 +29,17 @@ color: var(--yellow);
 
 }
 
-@media (min-width:520px){
-.question-mark{
-left: 200px;
-top: -16px;
-font-size: 1110px;
-line-height: 1562px;
-z-index: +20;
-}
+@media(max-width:500px){
+  .question-mark{
+    font-size: 50rem;
+    margin-left:-10rem;
+  }
 }
 
-@media (min-width:1000px){
-
+@media(min-width:700px){
+  .question-mark-wrap{
+    margin-left:-5rem;
+  }
 }
 
 
@@ -69,25 +65,18 @@ a:active {
     text-align: center;
 }
 
-.textone{
-    position: absolute;
-width: 524px;
-height: 1059px;
-left: 117px;
-top: 0px;
+.textone-wrap{
+  max-width: 400px;
+  margin-left: 5rem;
+}
 
-position: absolute;
-width: 515px;
-height: 1041px;
-left: 153px;
-top: 18px;
+.textone{
 z-index: +1;
 
 font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400;
 font-size: 29px;
-line-height: 34px;
 text-align: justify;
 cursor: help;
 
@@ -136,14 +125,38 @@ animation: textone 25s linear infinite;
     .textone{
         display: none;
     }
+    .texttwo{
+      display: none;
+    }
 }
 
+.texttwo-wrap{
+max-width: 320px;
+/* padding-left: 48rem; */
+}
+
+@media(min-width:700px){
+  .textone-wrap{
+    max-width: 320px;
+    margin-left:1rem;
+    margin-bottom: -5rem;
+  }
+  .texttwo-wrap{
+    max-width: 320px;
+    margin-left: 25rem;
+    margin-top: -190rem;
+  }
+}
+@media(min-width:1000px){
+  .texttwo-wrap{
+    max-width: 420px;
+    margin-left: -20rem;
+    margin-top: -190rem;
+}
+    }
+
+
 .texttwo{
-    position: absolute;
-width: 515px;
-height: 510px;
-left: 783px;
-top: -9px;
 
 font-family: 'Abhaya Libre';
 font-style: normal;
@@ -195,23 +208,24 @@ animation: texttwo 25s linear infinite;
     cursor: help;
 }
 
-@media (max-width:500px){
-    .texttwo{
-        display: none;
+
+
+@media (min-width:1000px){
+  .textone-wrap{
+    max-width: 400px;
+    margin-left: 5rem;
+  }
+  .texttwo-wrap{
+    max-width: 600px;
+    padding-left: 48rem;
     }
 }
 
-
 .textoneandtwo{
-position: absolute;
-left: 117px;
-top: 0px;
-width: 1020px;
 font-family: 'Abhaya Libre';
 font-style: normal;
 font-weight: 400;
-font-size: 100px;
-line-height: 100px;
+font-size: 20px;
 text-align: justify;
 cursor: help;
     
@@ -251,14 +265,14 @@ cursor: help;
     }
   }
   
-  @media(min-width:320px){
-    .textoneandtwo{
-        left: 207px;
-    }
-    }
 
 @media(min-width:500px){
 .textoneandtwo{
     display: none;
 }
+}
+
+.textoneandtwo-wrap{
+  max-width: 300px;
+  margin: 10%;
 }

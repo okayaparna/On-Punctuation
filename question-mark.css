@@ -260,7 +260,7 @@ cursor: help;
   max-width: 300px;
   margin: 10%;
 }
-
+/* 
 @media(min-width: 700px){
 .wrap-one{
 margin-top: -20rem;
@@ -273,4 +273,33 @@ margin-top: -20rem;
   max-width: 320px;
   margin-left: 25rem;
 }
+}
+
+@media(min-width:1000px){
+  .wrap-one{
+    margin-top: -26rem;
+    max-width: 452px;
+    margin-left: 3rem;
+    
+    }
+    .wrap-two{
+      margin-top: -120rem;
+      max-width: 452px;
+      margin-left: 32rem;
+    }
+} */
+
+.total-wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+@media(min-width:700px){
+  .total-wrap{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 1rem;
+  }
 }

@@ -102,7 +102,7 @@ a:active {
     font-weight: 400;
     font-size: 10rem;
     color: #000000;
-
+    z-index: +100;
     animation: blinking 2.5s infinite;
 }
 
@@ -115,6 +115,7 @@ a:active {
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    z-index: +100;
 }
 
 @media(min-width: 1000px){
@@ -231,7 +232,7 @@ a:active {
 
 @media(min-width:1000px){
     .period-wrap{
-        margin-top: -2rem;
+        margin-top: 0rem;
         margin-left: -45rem;
         transform: rotate(80.48deg);
     }
@@ -374,6 +375,7 @@ animation: blinking 2.5s infinite;
 @media (min-width:1000px){
     .complications-wrap{
         padding-left: 25rem;
+    margin-top: 0rem;
 
     }
 }

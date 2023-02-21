@@ -31,17 +31,28 @@ color: var(--yellow);
 
 @media(max-width:500px){
   .question-mark{
-    font-size: 50rem;
-    margin-left:-10rem;
+    font-size: 30rem;
+    margin-left: -9rem;
+    margin-top: -25rem;
   }
 }
 
 @media(min-width:700px){
-  .question-mark-wrap{
-    margin-left:-5rem;
+  .question-mark{
+    margin-top: -21rem;
+    margin-left: -5rem;
+    font-size: 50rem;
   }
+
 }
 
+@media(min-width: 1000px){
+  .question-mark{
+    margin-top: -18rem;
+    font-size: 53rem;
+    margin-left: -3rem;
+  }
+}
 
 
 a:link {
@@ -65,10 +76,6 @@ a:active {
     text-align: center;
 }
 
-.textone-wrap{
-  max-width: 400px;
-  margin-left: 5rem;
-}
 
 .textone{
 z-index: +1;
@@ -130,29 +137,13 @@ animation: textone 25s linear infinite;
     }
 }
 
-.texttwo-wrap{
-max-width: 320px;
-/* padding-left: 48rem; */
-}
 
 @media(min-width:700px){
-  .textone-wrap{
-    max-width: 320px;
-    margin-left:1rem;
-    margin-bottom: -5rem;
-  }
-  .texttwo-wrap{
-    max-width: 320px;
-    margin-left: 25rem;
-    margin-top: -190rem;
-  }
+
+
 }
 @media(min-width:1000px){
-  .texttwo-wrap{
-    max-width: 420px;
-    margin-left: -20rem;
-    margin-top: -190rem;
-}
+
     }
 
 
@@ -211,14 +202,7 @@ animation: texttwo 25s linear infinite;
 
 
 @media (min-width:1000px){
-  .textone-wrap{
-    max-width: 400px;
-    margin-left: 5rem;
-  }
-  .texttwo-wrap{
-    max-width: 600px;
-    padding-left: 48rem;
-    }
+
 }
 
 .textoneandtwo{
@@ -275,4 +259,18 @@ cursor: help;
 .textoneandtwo-wrap{
   max-width: 300px;
   margin: 10%;
+}
+
+@media(min-width: 700px){
+.wrap-one{
+margin-top: -20rem;
+  max-width: 320px;
+  margin-left: 2.5rem;
+
+}
+.wrap-two{
+  margin-top: -120rem;
+  max-width: 320px;
+  margin-left: 25rem;
+}
 }

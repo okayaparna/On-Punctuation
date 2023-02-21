@@ -75,5 +75,5 @@ a:hover {
 a:active {
     /* text-decoration-line: none; */
     text-align: center;
-
+color: var(--cyan);
 }

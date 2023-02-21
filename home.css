@@ -24,6 +24,7 @@ body{
     background-size: cover;
     height: 90vh;
     width: auto;
+    margin-left: 5%;
 
 }
 
@@ -127,6 +128,7 @@ a:active {
     .question-mark-wrap{
         animation: none;
         transform: revert;
+        padding-left:13rem;
     }
 }
 
@@ -337,4 +339,47 @@ transform: revert;
     0% { transform: translate(0px,  0px, 40px); }
     50%  { transform: translate(0, 25px); }
     100%   { transform: translate(0, -0px, 50px); }   
+}
+
+.complications{
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+font-size: 15rem;
+animation: blinking 2.5s infinite;
+}
+
+.complications-wrap{
+    transform: rotate(320.48deg);
+    animation-name: floating-exclaim-2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media (max-width:500px){
+    .complications-wrap{
+        animation: none;
+        transform: revert;
+        margin-top: -40rem;
+    }
+}
+
+@media (min-width:520px){
+    .complications-wrap{
+        padding-left: 5rem;
+        margin-top: -35rem;
+    }
+}
+@media (min-width:1000px){
+    .complications-wrap{
+        padding-left: 25rem;
+
+    }
+}
+
+@keyframes floating-exclaim-2 {
+    0% { transform: translate(0,  0px, 5px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(5px, -0px, 0px); }   
 }

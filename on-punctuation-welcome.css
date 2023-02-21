@@ -4,7 +4,46 @@
         --yellow: yellow;
         --cyan: cyan;
       }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
 
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+      
+.on{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 10rem;
+color: var(--pink);
+animation: blinking 2.5s infinite;
+}
+
+.on-wrap{
+padding-left:25rem;
+
+}
+.punctuation{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 10rem;
+animation: blinking 2.5s infinite;
+color: var(--pink);
+}
+
+.punctuation-wrap{
+margin-top:-120px;
+
+}
+
+
+
+/* 
 .on{
 
 font-family: 'Aguafina Script';
@@ -20,8 +59,7 @@ margin-top: 331px;
 animation: blinking 2.5s infinite;
 font-size: 300px;
 line-height: 654px;
-/* animation: blur 10s ease-out infinite;
--webkit-animation: blur 10s ease-out infinite; */
+
 
 }
 @media (min-width:375px){
@@ -86,8 +124,8 @@ line-height: 654px;
         font-size: 50rem;
         line-height: 774px;
     }
-    }
-
+    } */
+/* 
 .punctuation{
 
     font-family: 'Aguafina Script';
@@ -150,7 +188,7 @@ line-height: 654px;
         font-size: 40rem;
         line-height: 774px;
     }
-    }
+    } */
 
 @keyframes blinking{
     0% {
@@ -170,12 +208,18 @@ line-height: 654px;
     }
 }
 
+.question-mark-wrap{
+    margin-top: -250px;
+    padding-left: 53%;
+}
+
 .question-mark{
-    position: absolute;
+    /* position: absolute;
     width: 306px;
     height: 339px;
     left: 484.08px;
     top: 824.56px;
+    line-height: 541px; */
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -183,14 +227,13 @@ line-height: 654px;
     font-family: 'Aguafina Script';
     font-style: normal;
     font-weight: 400;
-    font-size: 15rem;
-    line-height: 541px;
+    font-size: 5rem;
     color: #000000;
     transform: rotate(-44.2deg);
 }
 
 
-@media (min-width:400px){
+/* @media (min-width:400px){
    .question-mark{
     width: 306px;
     height: 339px;
@@ -216,7 +259,7 @@ line-height: 654px;
     top: 1024.56px;
     font-size: 35rem;
 }
-}
+}  */
 
 a:link {
     text-decoration-line: none;

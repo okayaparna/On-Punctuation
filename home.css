@@ -1,0 +1,150 @@
+:root{
+    --cyan: cyan;
+    --pink: rgb(255, 0, 128);
+    --yellow: yellow;
+    --blue: blue;
+    --white: white;
+    --black: black;
+
+  }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+
+body{
+    background: linear-gradient(89.44deg, #00FFF0 3.4%, #FF00A8 28.37%, #FFE600 55.6%, #FFFFFF 83.74%) ;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+}
+
+.on{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 10rem;
+color: var(--black);
+}
+
+.on-wrap{
+    padding-left: 25rem;
+    margin-left: 10rem;
+    padding-top: 10vh;
+}
+
+@media(max-width:425px){
+    .on-wrap{
+        margin-left: 0rem;
+        padding-top: 15rem;
+    }  
+}
+@media(min-width:1000px){
+    .on-wrap{
+        padding-top: 15rem;
+    }  
+}
+
+
+.punctuation{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 10rem;
+color: var(--black);
+}
+
+.punctuation-wrap{
+    margin-top: -120px;
+    padding-left: 21vw;
+
+}
+
+@media(max-width:425px){
+    .punctuation-wrap{
+        padding-left: 0rem;
+    }  
+}
+@media(min-width:1000px){
+    .punctuation-wrap{
+        padding-top: 1rem;
+    }  
+}
+
+a:link {
+    text-decoration-line: none;
+}
+
+a:visited {
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: none;
+}
+
+a:active {
+    text-decoration-line: none;
+}
+
+.question-mark{
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10rem;
+    color: #000000;
+
+    animation: blinking 2.5s infinite;
+}
+
+.question-mark-wrap{
+    margin-top: -420px;
+    padding-left: 53%;
+
+    transform: rotate(-44.2deg);
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media(min-width: 1000px){
+    .question-mark-wrap{
+        margin-top: -400px;
+        padding-left: 40%;
+    
+    }
+}
+
+@keyframes blinking{
+    0% {
+        color:  blue;
+    }
+    47% {
+        color: rgb(255, 0, 242);
+    }
+     62% {
+        color: yellow;
+    }
+    97% { color: cyan;
+       
+    }
+    100% {
+        color: blue;
+    }
+}
+
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 45px); }
+    100%   { transform: translate(0, -0px); }   
+}

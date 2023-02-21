@@ -33,7 +33,7 @@ font-weight: 400; */
 }
 
 
-  a:link {
+ a:link {
     text-decoration-line:underline;
     text-decoration: none;
     text-align: center;
@@ -45,16 +45,16 @@ a:visited {
 }
 
 a:hover {
-    text-decoration-line:underline;
+    text-decoration-line:none;
     text-align: center;
     color: var(--pink);
-    font-size: larger;
     transition: 1s;
 }
 
 a:active {
     text-decoration-line: none;
     text-align: center;
+    color: var(--pink);
 }
 
 .textone{
@@ -118,4 +118,21 @@ a:active {
     .para-3{
         max-width: 650px;
     }
+}
+
+footer{
+
+    text-align: center;
+
+}
+
+.linktonext{
+    font-family: 'Aguafina Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.linktonext-wrap{
+text-align: center;
 }

@@ -22,7 +22,7 @@ body{
     height: auto;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     width: auto;
 
 }
@@ -181,7 +181,7 @@ a:active {
         animation: none;
         transform: revert;
         margin-top: -25rem;
-        margin-left: -8rem;
+        margin-left: -18rem
     }
 }
 
@@ -266,6 +266,14 @@ a:active {
     }
 }
 
+@media(min-width:520px){
+    .semicolon-wrap{
+        margin-top: 0rem;
+        padding-left: 30rem;
+    }
+}
+
+
 @media(min-width:1000px){
     .semicolon-wrap{     
     margin-top: -25rem;
@@ -280,4 +288,53 @@ a:active {
     0% { transform: translate(0,  7px, 50px); }
     50%  { transform: translate(0, 25px); }
     100%   { transform: translate(0px, -0px, 10px); }   
+}
+
+.comma{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 25rem;
+animation: blinking 2.5s infinite;
+}
+
+.comma-wrap{
+    margin-top: -30rem;
+    transform: rotate(-50.15deg);
+    animation-name: floating-exclaim-1;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@media(max-width:500px){
+    .comma-wrap{
+        margin-top: -31rem;
+        padding-left: 2.5rem;
+animation: none;
+transform: revert;
+    }
+}
+@media(min-width:520px){
+    .comma-wrap{
+        margin-top: -41rem;
+    padding-left: 3rem;
+    }
+}
+@media(min-width: 1000px){
+    .comma{
+        font-size: 25rem;
+    }
+    .comma-wrap{
+        margin-top: -40rem;
+        padding-left: 10rem;
+        transform: rotate(15.15deg);
+    }
+}
+
+
+@keyframes floating-exclaim-1 {
+    0% { transform: translate(0px,  0px, 40px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px, 50px); }   
 }

@@ -57,6 +57,7 @@ a:link {
     text-decoration-line:underline;
     text-decoration: none;
     text-align: center;
+    color: var(--cyan);
 }
 
 a:visited {

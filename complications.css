@@ -121,7 +121,7 @@ a:active {
 }
 
 footer{
-
+padding-bottom: 5%;
     text-align: center;
 
 }
@@ -131,8 +131,4 @@ footer{
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
-}
-
-.linktonext-wrap{
-text-align: center;
 }

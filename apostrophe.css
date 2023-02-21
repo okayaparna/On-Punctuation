@@ -93,7 +93,6 @@ backdrop-filter: blur(5px);
 
 @media(min-width:500px){
     .textthree{
-        /* width: 520px; */
         font-size: 30px;
         max-width: 500px; /* change this number */
         margin: 0 auto;
@@ -101,17 +100,12 @@ backdrop-filter: blur(5px);
     }
 @media(min-width:1000px){
     .textthree{
-        /* width: 700px;
-        height: auto;
-        left: 156px; */
         font-size: 39px;
         max-width: 700px; /* change this number */
         margin: 0 auto;
     }
 
 }
-
-
 .words{
     text-align: center;
     padding-top: 10%;

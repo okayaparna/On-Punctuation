@@ -191,7 +191,7 @@ a:active {
 @media (min-width:1000px){
     .apostrophe-wrap{
         margin-top: -25rem;
-        margin-left: 2rem;
+        margin-left: 7rem;
     }
 }
 
@@ -279,8 +279,8 @@ a:active {
 
 @media(min-width:1000px){
     .semicolon-wrap{     
-    margin-top: -25rem;
-    padding-left: 50rem;
+        margin-top: -22rem;
+    padding-left: 28rem;
     transform: rotate(18.48deg);
 
     }
@@ -374,8 +374,8 @@ animation: blinking 2.5s infinite;
 }
 @media (min-width:1000px){
     .complications-wrap{
-        padding-left: 25rem;
-    margin-top: 0rem;
+        padding-left: 53rem;
+        margin-top: 2rem;
 
     }
 }

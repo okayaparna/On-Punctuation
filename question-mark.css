@@ -12,13 +12,14 @@
 .question-mark-wrap{
   margin-top: 30rem;
   padding-left: 30rem;
+  pointer-events: none;
 }
 
 .question-mark{
     position: absolute;
 left: 150px;
 top: 206px;
-
+pointer-events: auto;
 font-family: 'Aguafina Script';
 font-style: normal;
 font-weight: 400;

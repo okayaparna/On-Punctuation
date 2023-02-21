@@ -1,0 +1,79 @@
+:root{
+    --cyan: cyan;
+    --pink: rgb(255, 0, 128);
+    --yellow: yellow;
+    --blue: blue;
+    --white: white;
+    --black: black;
+
+  }
+/* 
+font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400; */
+
+/* font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400; */
+
+body{
+    background: linear-gradient(89.44deg, #00FFF0 3.4%, #FF00A8 28.37%, #FFE600 55.6%, #FFFFFF 83.74%) ;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 2880px;
+
+}
+
+.textone-wrap{
+    background: linear-gradient(89.44deg, #00FFF0 3.4%, #FF00A8 28.37%, #FFE600 55.6%, #FFFFFF 83.74%) ;
+    height: 110vh;
+   padding-top: 60vh;
+   padding-left: 50vh;
+   margin-top: -10px;
+
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   text-decoration: none;
+}
+
+.textone{
+    font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+}
+
+.linktohome{
+    font-family: 'Aguafina Script';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+padding: 10px;
+}
+a:link {
+    text-decoration-line:underline;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:visited {
+    text-decoration-line: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration-line:underline;
+    text-align: center;
+    color: var(--pink);
+    font-size: 50px;
+    transition: 1s;
+}
+
+a:active {
+    /* text-decoration-line: none; */
+    text-align: center;
+
+}

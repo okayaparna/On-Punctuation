@@ -34,12 +34,14 @@ font-style: normal;
 font-weight: 400;
 font-size: 10rem;
 color: var(--black);
+pointer-events: auto;
 }
 
 .on-wrap{
     padding-left: 25rem;
     margin-left: 10rem;
     padding-top: 10vh;
+     pointer-events: none;
 }
 
 @media(max-width:425px){
@@ -61,11 +63,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 10rem;
 color: var(--black);
+pointer-events: auto;
 }
 
 .punctuation-wrap{
     margin-top: -120px;
     padding-left: 21vw;
+     pointer-events: none;
 
 }
 
@@ -104,6 +108,7 @@ a:active {
     color: #000000;
     z-index: +100;
     animation: blinking 2.5s infinite;
+    pointer-events: auto;
 }
 
 .question-mark-wrap{
@@ -116,6 +121,7 @@ a:active {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     z-index: +100;
+     pointer-events: none;
 }
 
 @media(min-width: 1000px){
@@ -165,6 +171,7 @@ a:active {
     font-size: 15rem;
     color: #000000;
     animation: blinking 2.5s infinite;
+    pointer-events: auto;
 
 }
 
@@ -176,6 +183,7 @@ a:active {
     animation-timing-function: ease-in-out;
     padding-left: 42rem;
     margin-top: -15rem;
+     pointer-events: none;
 
 }
 
@@ -208,6 +216,7 @@ a:active {
     font-size: 20rem;
    animation: blinking 2.5s infinite;
     color: #000000;
+    pointer-events: auto;
 
 }
 
@@ -219,6 +228,7 @@ a:active {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+     pointer-events: none;
 }
 
 @media(max-width:500px){
@@ -250,6 +260,7 @@ a:active {
     font-weight: 400;
     font-size: 20rem;
     animation: blinking 2.5s infinite;
+    pointer-events: auto;
 }
 
 .semicolon-wrap{
@@ -258,6 +269,7 @@ a:active {
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+     pointer-events: none;
 }
 
 @media(max-width:500px){
@@ -299,6 +311,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 25rem;
 animation: blinking 2.5s infinite;
+pointer-events: auto;
 }
 
 .comma-wrap{
@@ -308,6 +321,7 @@ animation: blinking 2.5s infinite;
     animation-duration: 4.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+     pointer-events: none;
 }
 
 @media(max-width:500px){
@@ -348,6 +362,7 @@ transform: revert;
     font-weight: 400;
 font-size: 15rem;
 animation: blinking 2.5s infinite;
+pointer-events: auto;
 }
 
 .complications-wrap{
